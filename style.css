@@ -1,112 +1,189 @@
-body{
-	background-image: url("images/Bg.jpg");
-	background-repeat: no-repeat;
-}
-
-.topnav {
-	overflow: hidden;
-	background-color: #333;
-	position:sticky;
-	top: 0;
-    width: 100%;
+/* Styling for the main page*/
+#menu-page{
+	background-image: url("https://image.freepik.com/free-photo/tasty-pepperoni-pizza-black-concrete-background_79782-102.jpg");
+	 background-repeat: no-repeat; 
+	height: 800px;
+	background-size: cover; 
   }
-  
-  .topnav a {
-	float: left;
-	color: #f2f2f2;
-	font-family: cursive;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-  }
-  
-  .topnav a:hover {
-	background-color: #bbb;
-	color: black;
-  }
-
-  .topnav-right {
-	float: right;
-  }
-
-  .row::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
-  .img_div{
-	float: left;
-	width: 50%;
-	padding: 5px;
-  }
-  .menu_div{
-	float: right;
-	width: 50%;
-	padding: 160px;
-	color: honeydew;
-	font-size: 25px;
-	font-family: cursive;
-  }
-  #menu_list{
-	background-color:#f5c71a;
-	color:black; 
-	width: 200px;
-	border: none;
-  }
-
-  .newRow::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-  .block1{
-	float: left;
-	width: 20%;
-	padding: 5px;
-  }
-  .block2{
-	float: left;
-	width: 80%;
-	padding: 5px;
-	color: honeydew;
-	font-size: 25px;
-	font-family: cursive;
-  }
-
-  #add_toppings{
-	padding-left:30px;
-	width:150px;
-	height:100px;
-	border: none;
-	background-color:#e2062c;
-	color:black;
-	font-size: 15px;
-	font-family: cursive;
-  }
-
-  #add_item {
-	font-family: cursive;
-	font-size: 15px;
-	line-height: 20px;
-	width: 80%;
-	height: 50px;
-	color: #ffffff;
-    background: none;
-    border: none;
-    border-bottom: 1px solid rgb(223, 205, 205);
-    outline: none;
- }
-
-[placeholder]:focus::-webkit-input-placeholder {
-    transition: text-indent 0.4s 0.4s ease; 
-    text-indent: -100%;
-	opacity: 1;
+  li{
 	color: white;
- }
-
-#im1{
-	width:100px;
-	height: 80px;
-}
+	margin-left: 900px;
+	font-size: 40px;
+	font-family: Comic Sans MS, Comic Sans, cursive	;
+  }
+  .button{
+	  margin-left: 900px;
+	  font-size:  40px;
+	background-color: orange;
+	border-width: 3px;
+  }
+  h1{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin-top: -10px;
+  }
+  /*This is the styling for the make your own pizza screen*/
+  #menu{
+	background-image: url("https://media.istockphoto.com/videos/stop-motion-animation-top-view-vegetables-on-black-color-background-video-id843084240?s=640x640");
+	   background-repeat: no-repeat; 
+	height: 800px;
+	background-size: cover; 
+  
+  }
+  #h2_1{
+	color: white;
+	background-color: red;
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	font-size: 25px;
+	margin-top: -50px;
+  }
+  #h2_2{
+	color: white;
+	background-color: orange;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	font-size: 25px;
+	margin-top: -250px;
+  }
+  #h2_3{
+	color: white;
+	background-color: blue;
+	width: 150px;
+	height: 90px;
+	text-align: center;
+	font-size: 25px;
+  }
+  #input{
+  margin-left: 740px;
+  margin-top: 8px;
+  }
+  h3{
+	color: white;
+	margin-left: 770px;
+  }
+  #hello{
+	color: white;
+	margin-left: 730px;
+  }
+  .step_1{
+	margin-left: 700px;
+	color: gray;
+	margin-bottom: -30px;
+  
+  }
+  .step_1-write{
+	margin-left: 780px;
+  margin-top: 5px;
+  }
+  #button_submit{
+	 margin-left: 765px;
+	  font-size:  30px;
+	background-color: orange;
+	border-width: 3px;
+  border-radius: 50;
+  }
+  /*This is the styling of the menu page*/
+  #Pizza{
+	  background-image: url("https://media.istockphoto.com/videos/stop-motion-animation-top-view-vegetables-on-black-color-background-video-id843084240?s=640x640");
+	   background-repeat: no-repeat; 
+	height: 800px;
+	background-size: cover; 
+  }
+  #aaira{
+	background-color: yellow;
+	margin-top: -3000px;
+	width: 150px;
+	color: black;
+	border-width: 3px;
+	font-size: 35px;
+	font-weight: 500; 
+  }
+  #abdullah{
+	background-color: cyan;
+	margin-top: 0px;
+	font-size: 40px;
+	width: 150px;
+  }
+  .pizza{
+	  border-radius: 100%;
+	
+  }
+  #pizza_1{
+	  margin-left: 410px;
+  }
+  #hi{
+	color: black;
+	  margin-left: 490px;
+	margin-top: -240px;
+  
+  }
+  #shahshah{
+  margin-left: 380px;
+	margin-top: -300px;
+  }
+  .background{
+	background-color: tan;
+	height: 250px;
+	width: 300px;
+  }
+  #pi{
+	margin-left: 820px;
+	margin-top: -240px;
+  }
+  #pizza_2{
+	margin-left: 750px;
+	margin-top: 0px;
+  }
+  #background-2{
+	margin-left: 720px;
+	margin-top: -230px;
+  }
+  #background-3{
+	margin-left: 1050px;
+	margin-top: -230px;
+  }
+  #li{
+	margin-left: 1130px;
+	margin-top: -245px;
+  }
+  #pizza_3{
+	margin-top: 0px;
+	margin-left: 1080px;
+  }
+  #li_1{
+	margin-left: 475px;
+	margin-top: -240px;
+  }
+  #background-4{
+	margin-left: 380px;
+	margin-top: 50px;
+  }
+  #pizza_4{
+	margin-left: 410px;
+  }
+  #li_2{
+	margin-left: 810px;
+	margin-top: -240px;
+  }
+  #background-5{
+	margin-left: 720px;
+	margin-top: -230px;
+  }
+  #pizza_5{
+	margin-left: 750px;
+  }
+  #li_3{
+	margin-left: 1130px;
+	margin-top: -240px;
+  }
+  #background-6{
+	margin-left: 1050px;
+	margin-top: -230px;
+  }
+  #pizza_6{
+	margin-left: 1090px;
+  }
